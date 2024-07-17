@@ -1,0 +1,17 @@
+# this is only used on linux
+packages:
+  - "clang"
+
+  - "git"
+  - "file"
+
+  - "curl"
+  - "wget"
+
+  - "zsh"
+  - "fzf"
+  - "tmux"
+  
+  - "ripgrep"
+  - "luajit"
+  - "neovim"

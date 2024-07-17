@@ -1,0 +1,15 @@
+---
+- name: add homebrew taps
+  homebrew_tap:
+    name: "{{ item }}"
+  loop: "{{ taps }}"
+
+- name: install homebrew formulae
+  homebrew:
+    name: "{{ item }}"
+  loop: "{{ formulae }}"
+
+- name: install homebrew casks 
+  homebrew_cask:
+    name: "{{ item }}"
+  loop: "{{ casks }}"

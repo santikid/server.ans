@@ -1,0 +1,5 @@
+---
+- name: install linux packages
+  ansible.builtin.package:
+    name: "{{ item }}"
+  loop: "{{ packages }}"

@@ -1,0 +1,33 @@
+taps:
+  - "homebrew/cask-fonts"
+
+formulae:
+  - "openssh"
+
+  - "starship"
+
+  - "fzf"
+
+  - "tmux"
+  
+  - "ripgrep"
+  - "luajit"
+  - "neovim"
+
+  # fonts
+  - "font-jetbrains-mono-nerd-font"
+
+casks:
+  - "secretive"
+
+  # dev tools / productivity
+  - "alacritty"
+
+  # utilities
+  - "appcleaner"
+
+  # vm
+  - "utm"
+
+  # vpn
+  - "tailscale"
